@@ -3,21 +3,21 @@
 #include <FirebaseESP32.h>
 
 //Firebase Setup//
-#define FIREBASE_HOST "pocket-iot-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "1WstirL40sMzKhKK1p1Csz9o1ncQDYbLyu4QFQs0"
+#define FIREBASE_HOST "Your Firebase Host"
+#define FIREBASE_AUTH "Your Firebase Auth"
 FirebaseData firebaseData;
 
 //Notebook Wifi Setup//
-//#define WIFI_SSID "DREAMXICKZ-F5"
-//#define WIFI_PASSWORD "dreamxickz"
+//#define WIFI_SSID "Your SSID"
+//#define WIFI_PASSWORD "Your Password"
 
 //Hotspot Wifi Setup//
-//#define WIFI_SSID "dreamxickz"
-//#define WIFI_PASSWORD "142536789"
+//#define WIFI_SSID "Your SSID"
+//#define WIFI_PASSWORD "Your Password"
 
 //Home Wifi Setup//
-#define WIFI_SSID "DreaMxickZ"
-#define WIFI_PASSWORD "0869516082"
+#define WIFI_SSID "Your SSID"
+#define WIFI_PASSWORD "Your Password"
 
 
 //DHT Setup//
