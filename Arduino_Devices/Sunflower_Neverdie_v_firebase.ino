@@ -11,14 +11,14 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 //Firebase Setup//
-#define FIREBASE_HOST "pocket-iot-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "1WstirL40sMzKhKK1p1Csz9o1ncQDYbLyu4QFQs0"
+#define FIREBASE_HOST "Your Firebase Host"
+#define FIREBASE_AUTH "Your Firebase Auth"
 FirebaseData firebaseData;
 
 
 //Home Wifi Setup//
-#define WIFI_SSID "DreaMxickZ"
-#define WIFI_PASSWORD "0869516082"
+#define WIFI_SSID "Your SSID"
+#define WIFI_PASSWORD "Your Password"
 
 //DHT//
 #define DHTPIN D5 
