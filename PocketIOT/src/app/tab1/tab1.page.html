@@ -1,0 +1,41 @@
+<ion-header translucent no-border>
+
+    <ion-header>
+        <ion-toolbar>
+
+            <ion-title>
+                Profile
+            </ion-title>
+
+
+        </ion-toolbar>
+    </ion-header>
+</ion-header>
+
+<ion-content fullscreen="true" slot="fixed">
+
+
+    <div class="card-body">
+        <div class="user-meta ion-text-center">
+
+
+            <img src="/assets/member/user.png">
+
+
+            <h3 class="playername"> {{mainApiService?.user?.firstName}} {{mainApiService?.user?.lastName}}</h3>
+            <h5 class="country">{{mainApiService?.user?.email}}</h5>
+            <h6 class="country">{{mainApiService?.user?.City}}_{{mainApiService?.user?.County}}</h6>
+
+
+            <br>
+            <ion-button size="small" slot="end" color="danger" (click)="logout()">Sign out</ion-button>
+            <br><br><br><br>
+
+        </div>
+
+
+    </div>
+
+
+
+</ion-content>

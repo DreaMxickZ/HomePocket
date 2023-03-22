@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> Devices List </ion-title>
+    <ion-button size="small" slot="end" color="primary" (click)="showAlert()" >Add</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-list>
+ <!--   <ion-item *ngFor="let device of devices">
+    <ion-icon name="water" slot="start"></ion-icon>
+    <ion-label> {{device.name}} </ion-label>
+    <ion-icon name="arrow-forward-circle" (click)="deleteDevice(device.id)"></ion-icon>
+  </ion-item> -->
+</ion-list>
+
+
+<ion-item-sliding *ngFor="let device of devices">
+  <ion-item-options side="start">
+    <ion-item-option color="danger" (click)="deleteDevice(device.id)">
+      <ion-icon slot="icon-only" name="trash"></ion-icon></ion-item-option>
+  </ion-item-options>
+
+  <ion-item>
+    <ion-icon name="logo-apple-ar" slot="start"></ion-icon>
+    <ion-label>{{device.name}}</ion-label>
+    <ion-icon name="arrow-forward-circle" ></ion-icon>
+    
+  </ion-item>
+
+</ion-item-sliding> 
+
+</ion-content>

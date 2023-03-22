@@ -1,0 +1,43 @@
+<ion-content>
+    <div class="Login-section ion-padding">
+        <div class="heading ion-padding">
+            <h1>Welcome Pocket IOT</h1>
+            <p>Sign in to continue</p>
+            <!-- <p *ngFor="let gateway of gateways">{{gateway.name}}</p> -->
+
+            <div class="login-form ion-padding">
+                <div class="form-input">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <ion-item>
+                        <ion-label position="floating">Email</ion-label><br><br>
+                        <ion-input type="email" [(ngModel)]="email"></ion-input>
+                    </ion-item>
+                </div>
+
+                <div class="form-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <ion-item>
+                        <ion-label position="floating">Password</ion-label><br><br>
+                        <ion-input type="password" [(ngModel)]="password"></ion-input>
+                    </ion-item>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="action-button ion-padding">
+            <ion-button size="large" class="login-button" (click)="onClick()" [disabled]="checkForm()">Log in</ion-button>
+            <p *ngIf="isShowForgot">Forgot password ?</p>
+            <ion-button class="signup-button" size="large" fill="outline" routerLink="/signup">Sign up</ion-button>
+            <br>
+            <p></p>
+            <div class="login-app ion-paddind">
+                <br>
+                <!--   <ion-icon name="logo-facebook"></ion-icon>
+                &nbsp;&nbsp;&nbsp;
+                <ion-icon name="logo-google"></ion-icon> -->
+            </div>
+        </div>
+    </div>
+</ion-content>
