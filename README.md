@@ -6,6 +6,13 @@ Nov 2021 — Feb 2022 <br>
 High Vocational Diploma - Phuket Technical college  <br>
 Major Information Technology  
 
+## Project Overview
+เป็นระบบที่มีทั้ง อุปกรณ์ แอปพลิเคชั่น และคลาวน์
+อุปกรณ์จะมีปลั๊กไฟ  ระบบรดน้ำ และ เครื่องวัดสภาพอากาศภายในบ้าน
+แอปพัฒนาจาก IONIC Freamwork โดยใช้ภาษา Angular
+และใช้คลาวน์ Firebase เพื่อเก็บค่าสถานะต่างๆ
+
+
 ![61b167639d5099bd28363fc5_Copy of Port A4](https://github.com/DreaMxickZ/IONIC-Angular-App-HomePocket/assets/53443605/9ae8a311-63b4-4310-b2ab-e8d8644d86fd)
 
 
