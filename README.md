@@ -1,7 +1,7 @@
 # IONIC_Angular_App_HomePocket
 ## Home Pocket
 ### IOT Project
-Nov 2021 — Feb 2022
+Nov 2021 — Feb 2022 <br>
 High Vocational Diploma - Phuket Technical college 
 Major Information Technology  Project
 
