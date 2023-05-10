@@ -18,7 +18,7 @@ Major Information Technology
 
 ## Arduino Device 
 
-Sunflower Neverdie - Switch
+Sunflower Neverdie - Switch Automation
 ![6285eed161f31d450b5632a5_เส้นสีแดง](https://github.com/DreaMxickZ/IONIC-Angular-App-HomePocket/assets/53443605/d7c7922c-1808-4c38-a131-9a14934fcb9e)
 
 
