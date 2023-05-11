@@ -16,7 +16,7 @@ Major Information Technology
 ![61b167639d5099bd28363fc5_Copy of Port A4](https://github.com/DreaMxickZ/IONIC-Angular-App-HomePocket/assets/53443605/9ae8a311-63b4-4310-b2ab-e8d8644d86fd)
 
 
-## Ionic FreamWork  With Anular
+## Ionic FreamWork  With Angular
 ![61b2353161893d585a981c44_2](https://github.com/DreaMxickZ/IONIC-Angular-App-HomePocket/assets/53443605/728000a6-2370-4d34-8dc0-43d64f668a0e)
 
 
