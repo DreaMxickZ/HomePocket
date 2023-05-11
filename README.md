@@ -1,4 +1,4 @@
-# IONIC_Angular_App_HomePocket
+# IONIC Angular App HomePocket
 ## Home Pocket
 ### IOT Project
 ### Project
